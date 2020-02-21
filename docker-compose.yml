@@ -1,0 +1,31 @@
+version: '3'
+
+networks:
+  frontend:
+  backend:
+
+volumes:
+  redisdata:
+  pgdata:
+  pgvectordata:
+
+services:
+  db:
+    image: postgres
+  kodeepspeed:
+    build: ./kodeepspeed
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./kodeepspeed:/app
+      - ./model:/app/django_server/swallow/model
+      - ./data:/app/django_server/swallow/data
+      - ./model_src:/app/django_server/swallow/src
+      - ./bert_pretrained:/bert_pretrained
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    env_file: .env
+    networks:
+      - backend
+      - frontend
