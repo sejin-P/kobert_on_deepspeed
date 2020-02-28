@@ -18,6 +18,11 @@ services:
       - pgdata:/var/lib/postgresql/data/
     networks:
       - backend
+    environment:
+      - POSTGRES_DB=postgresdb
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_INITDB_ARGS=--encoding=UTF-8
   kodeepspeed:
     build: ./kodeepspeed
     command: python manage.py runserver 0.0.0.0:8000
