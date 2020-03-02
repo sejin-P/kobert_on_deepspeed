@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca4833f8-0143-4749-913b-12ae86ed0c99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/textreader/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodeepspeed/kodeepspeed/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/kodeepspeed/kodeepspeed/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodeepspeed/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodeepspeed/kodeepspeed/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodeepspeed/kodeepspeed/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodeepspeed/kodeepspeed/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodeepspeed/kodeepspeed/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodeepspeed/kodeepspeed/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodeepspeed/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodeepspeed/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +93,7 @@
       <workItem from="1582291950702" duration="5380000" />
       <workItem from="1582549166600" duration="1855000" />
       <workItem from="1582900747296" duration="596000" />
+      <workItem from="1582903070829" duration="11238000" />
     </task>
     <servers />
   </component>
@@ -100,10 +110,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1582292414970" />
-    <state x="454" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582290418421">
+    <state x="454" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583157613176">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="454" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1582290418421" />
+    <state x="454" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1583157613176" />
     <state x="578" y="344" key="DockerComposeFileDialog" timestamp="1582292397316">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

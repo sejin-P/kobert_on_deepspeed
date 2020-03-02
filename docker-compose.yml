@@ -23,11 +23,11 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_INITDB_ARGS=--encoding=UTF-8
-  kodeepspeed:
-    build: ./kodeepspeed
+  web:
+    build: ./web
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
-      - ./kodeepspeed:/app
+      - ./web:/app
       - ./model:/app/django_server/swallow/model
       - ./data:/app/django_server/swallow/data
       - ./model_src:/app/django_server/swallow/src
