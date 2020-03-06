@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca4833f8-0143-4749-913b-12ae86ed0c99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/textreader/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/textreader/templates/textreader/user_text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/textreader/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodeepspeed/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodeepspeed/kodeepspeed/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodeepspeed/kodeepspeed/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodeepspeed/kodeepspeed/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodeepspeed/kodeepspeed/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodeepspeed/kodeepspeed/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodeepspeed/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodeepspeed/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/textreader/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/textreader/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/textreader/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/textreader/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/textreader/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/textreader/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -46,9 +41,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -93,7 +92,8 @@
       <workItem from="1582291950702" duration="5380000" />
       <workItem from="1582549166600" duration="1855000" />
       <workItem from="1582900747296" duration="596000" />
-      <workItem from="1582903070829" duration="11238000" />
+      <workItem from="1582903070829" duration="11500000" />
+      <workItem from="1583313014575" duration="7460000" />
     </task>
     <servers />
   </component>
@@ -102,6 +102,12 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/../nlu_kb/nlu/dashboard/node_modules/apollo-env/src/fetch/global.d.ts" />
+        <option value="$USER_HOME$/nlu_vector/nlu/dashboard/node_modules/image-ssim/index.js" />
+        <option value="$USER_HOME$/nlu_vector/nlu/dashboard/node_modules/image-ssim/index.d.ts" />
+        <option value="$USER_HOME$/nlu_vector/nlu/dashboard/node_modules/apollo-env/src/fetch/global.d.ts" />
+        <option value="$USER_HOME$/nlu_vector/nlu/dashboard/node_modules/apollo-env/src/fetch/index.d.ts" />
+        <option value="$USER_HOME$/nlu_vector/nlu/dashboard/node_modules/aws-sdk/scripts/services-table-generator.js" />
+        <option value="$USER_HOME$/nlu_vector/nlu/dashboard/node_modules/apollo-server-env/src/index.d.ts" />
       </list>
     </option>
   </component>
