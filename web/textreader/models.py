@@ -4,6 +4,7 @@ from django.db.models import ForeignKey, CASCADE
 
 # Create your models here.
 from django.db.models import CharField, TextField
+from graphene import ObjectType
 
 
 class Uploader(User):
